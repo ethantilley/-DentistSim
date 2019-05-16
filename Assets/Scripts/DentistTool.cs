@@ -5,29 +5,49 @@ using UnityEngine;
 public class DentistTool : MonoBehaviour
 {
 
-    public DentistTool currentTool;
+    private Vector3 startPos;
 
-    
-
-    private void Update()
+    private void OnMouseDown()
     {
-        if(currentTool)
-            gameObject.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, gameObject.transform.position.y);
-
+        PickUp();
     }
 
-    public virtual void PickUp(DentistTool pickUp)
+    public virtual void Start()
     {
-        currentTool = pickUp;
+        startPos = transform.position;
+    }
+
+    public virtual void Update()
+    {
+        if(ToolManager.instance.currentTool == this)
+        {
+            gameObject.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, gameObject.transform.position.z);
+            //print(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        }
+        
+    }
+
+    public void PickUp()
+    {
+        if(ToolManager.instance.currentTool == null)
+
+
+            if (ToolManager.instance.currentTool == this)
+            {
+
+            }
+        ToolManager.instance.currentTool = this;
+
+        GetComponent<BoxCollider2D>().enabled = false;
         //Cursor.visible = false;
     }
 
-    public virtual void ReplaceTool()
+    public void ReplaceTool()
     {
 
     }
 
-    public virtual void UseTool()
+    public void UseTool()
     {
 
     }

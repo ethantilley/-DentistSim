@@ -10,14 +10,4 @@ public class Gripper : DentistTool
         
     }
 
-    private void OnMouseDown()
-    {
-        PickUp(this);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

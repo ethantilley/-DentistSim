@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 74723472}
   m_Layer: 0
   m_Name: Plaque (6)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 113610491}
   m_Layer: 0
   m_Name: Decay (3)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 166493042}
   m_Layer: 0
   m_Name: Tooth (17)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 167522202}
   m_Layer: 0
   m_Name: Decay (1)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 335495209}
   m_Layer: 0
   m_Name: Plaque (9)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 440301060}
   m_Layer: 0
   m_Name: Tooth (11)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -952,7 +952,7 @@ GameObject:
   - component: {fileID: 579659196}
   m_Layer: 0
   m_Name: Tooth (15)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1031,7 +1031,7 @@ GameObject:
   - component: {fileID: 593551331}
   m_Layer: 0
   m_Name: Plaque (7)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 641289014}
   m_Layer: 0
   m_Name: Plaque (3)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1189,7 +1189,7 @@ GameObject:
   - component: {fileID: 686522793}
   m_Layer: 0
   m_Name: Tooth (3)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1272,7 +1272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &703161481
 Transform:
   m_ObjectHideFlags: 0
@@ -1280,9 +1280,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703161480}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07000017, y: 0, z: 0}
-  m_LocalScale: {x: 0.88701004, y: 0.88701004, z: 0.88701004}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.01, y: -0.22, z: 0}
+  m_LocalScale: {x: 0.62812495, y: 0.63358694, z: 0.4369565}
   m_Children: []
   m_Father: {fileID: 1294399683}
   m_RootOrder: 1
@@ -1323,7 +1323,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: 572dc9e479f7b274b98387a973de8a24, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1347,7 +1347,7 @@ GameObject:
   - component: {fileID: 703616515}
   m_Layer: 0
   m_Name: Tooth (10)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1505,7 +1505,7 @@ GameObject:
   - component: {fileID: 781592794}
   m_Layer: 0
   m_Name: Plaque (2)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1584,7 +1584,7 @@ GameObject:
   - component: {fileID: 819046897}
   m_Layer: 0
   m_Name: Plaque (10)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1663,7 +1663,7 @@ GameObject:
   - component: {fileID: 820681910}
   m_Layer: 0
   m_Name: Tooth (18)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 839732350}
   m_Layer: 0
   m_Name: Tooth (6)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1821,7 +1821,7 @@ GameObject:
   - component: {fileID: 854245631}
   m_Layer: 0
   m_Name: Tooth (9)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1912,9 +1912,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056972067}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 0, z: 0}
-  m_LocalScale: {x: 0.66929, y: 0.66929, z: 0.66929}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.01, y: 1.37, z: 0}
+  m_LocalScale: {x: 0.40521878, y: 0.52058756, z: 0.35902575}
   m_Children: []
   m_Father: {fileID: 1294399683}
   m_RootOrder: 0
@@ -1955,7 +1955,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9ca66835493641a4caf51afe5e2f56e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1979,7 +1979,7 @@ GameObject:
   - component: {fileID: 1093155837}
   m_Layer: 0
   m_Name: Tooth (5)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2046,51 +2046,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1105839613 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6274534698349230453, guid: eaae7daff6d5b7c4495ec0ccf6c11a6c,
-    type: 3}
-  m_PrefabInstance: {fileID: 8957474052503142766}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1105839616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105839613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ecf7021d7348e74698736fc8ab88c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTool: {fileID: 0}
---- !u!61 &1105839617
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105839613}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.4, y: 3.36}
-    newSize: {x: 3.4, y: 4.99}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.4, y: 3.36}
-  m_EdgeRadius: 0
 --- !u!1 &1119675766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +2058,7 @@ GameObject:
   - component: {fileID: 1119675768}
   m_Layer: 0
   m_Name: Tooth (14)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2182,7 +2137,7 @@ GameObject:
   - component: {fileID: 1165681287}
   m_Layer: 0
   m_Name: Plaque (11)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2261,7 +2216,7 @@ GameObject:
   - component: {fileID: 1175852441}
   m_Layer: 0
   m_Name: Tooth (2)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2328,51 +2283,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1223056753 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5731290146371944361, guid: 37ae29990aa685743937bc20f97ea520,
-    type: 3}
-  m_PrefabInstance: {fileID: 6666951744949096909}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1223056754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223056753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da2525e8bef9bb04db9a83b2d91b0205, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTool: {fileID: 0}
---- !u!61 &1223056755
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223056753}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.49, y: 3.94}
-    newSize: {x: 3.4, y: 4.99}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.49, y: 3.94}
-  m_EdgeRadius: 0
 --- !u!1 &1257940533
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2295,7 @@ GameObject:
   - component: {fileID: 1257940535}
   m_Layer: 0
   m_Name: Decay (2)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2464,7 +2374,7 @@ GameObject:
   - component: {fileID: 1264902704}
   m_Layer: 0
   m_Name: Plaque (13)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2555,16 +2465,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294399682}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1.3600001, y: -0.1, z: 0}
+  m_LocalScale: {x: 1.1842, y: 1.1842, z: 1.1842}
   m_Children:
   - {fileID: 1056972068}
   - {fileID: 703161481}
   - {fileID: 2036527328}
   m_Father: {fileID: 227886857}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &1294399684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2601,7 +2511,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4ffc6aaa30bfb454784f55b39c2e7a2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2625,7 +2535,7 @@ GameObject:
   - component: {fileID: 1363236896}
   m_Layer: 0
   m_Name: Plaque (4)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2704,7 +2614,7 @@ GameObject:
   - component: {fileID: 1372505738}
   m_Layer: 0
   m_Name: Plaque (5)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2783,7 +2693,7 @@ GameObject:
   - component: {fileID: 1422450455}
   m_Layer: 0
   m_Name: Plaque (8)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2975,7 +2885,7 @@ GameObject:
   - component: {fileID: 1624903367}
   m_Layer: 0
   m_Name: Decay (4)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3054,7 +2964,7 @@ GameObject:
   - component: {fileID: 1627787874}
   m_Layer: 0
   m_Name: Plaque (14)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3133,7 +3043,7 @@ GameObject:
   - component: {fileID: 1650916363}
   m_Layer: 0
   m_Name: Plaque (1)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3200,51 +3110,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1651966533 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6325953018065349426, guid: d384fae0dd37b5d4482a6073c2a60c3a,
-    type: 3}
-  m_PrefabInstance: {fileID: 582851361026554726}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1651966534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651966533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8c6bd2d9a8cf8640a15f659743fc16e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTool: {fileID: 0}
---- !u!61 &1651966535
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1651966533}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.5, y: 3.64}
-    newSize: {x: 3.4, y: 4.99}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.5, y: 3.64}
-  m_EdgeRadius: 0
 --- !u!1 &1669199022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3280,7 @@ GameObject:
   - component: {fileID: 1688501880}
   m_Layer: 0
   m_Name: Tooth (8)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3696,7 +3561,7 @@ GameObject:
   - component: {fileID: 1811096518}
   m_Layer: 0
   m_Name: Tooth (4)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3775,7 +3640,7 @@ GameObject:
   - component: {fileID: 1883639516}
   m_Layer: 0
   m_Name: Plaque (12)
-  m_TagString: Debris
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3912,8 +3777,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956811576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.06, y: 0.7454499, z: 0.04173158}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.6002, y: 1.38, z: 0.03829}
+  m_LocalScale: {x: 0.91752887, y: 0.91752887, z: 0.91752887}
   m_Children:
   - {fileID: 1443805710}
   - {fileID: 56708780}
@@ -3942,7 +3807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2036527328
 Transform:
   m_ObjectHideFlags: 0
@@ -3950,9 +3815,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036527327}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07000017, y: 0, z: 0}
-  m_LocalScale: {x: 0.88701, y: 0.88701, z: 0.88701}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.01, y: -1.57, z: 0}
+  m_LocalScale: {x: 0.42392492, y: 0.42761123, z: 0.2949042}
   m_Children: []
   m_Father: {fileID: 1294399683}
   m_RootOrder: 2
@@ -3993,7 +3858,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d5bd6b40c5f86174393d723228f7d78c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4017,7 +3882,7 @@ GameObject:
   - component: {fileID: 2066031864}
   m_Layer: 0
   m_Name: Tooth (12)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4096,7 +3961,7 @@ GameObject:
   - component: {fileID: 2127674065}
   m_Layer: 0
   m_Name: Tooth (1)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4175,7 +4040,7 @@ GameObject:
   - component: {fileID: 2133901494}
   m_Layer: 0
   m_Name: Tooth (13)
-  m_TagString: Tooth
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4257,17 +4122,17 @@ PrefabInstance:
     - target: {fileID: 6657154663998423794, guid: d384fae0dd37b5d4482a6073c2a60c3a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.84
+      value: 11.53
       objectReference: {fileID: 0}
     - target: {fileID: 6657154663998423794, guid: d384fae0dd37b5d4482a6073c2a60c3a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.57
+      value: 2.35
       objectReference: {fileID: 0}
     - target: {fileID: 6657154663998423794, guid: d384fae0dd37b5d4482a6073c2a60c3a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.05887211
+      value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 6657154663998423794, guid: d384fae0dd37b5d4482a6073c2a60c3a,
         type: 3}
@@ -4326,12 +4191,12 @@ PrefabInstance:
     - target: {fileID: 8856923694807591513, guid: 37ae29990aa685743937bc20f97ea520,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 11.01
       objectReference: {fileID: 0}
     - target: {fileID: 8856923694807591513, guid: 37ae29990aa685743937bc20f97ea520,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.66
+      value: -1.43
       objectReference: {fileID: 0}
     - target: {fileID: 8856923694807591513, guid: 37ae29990aa685743937bc20f97ea520,
         type: 3}
@@ -4395,12 +4260,12 @@ PrefabInstance:
     - target: {fileID: 114784959208048954, guid: eaae7daff6d5b7c4495ec0ccf6c11a6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.67
+      value: 11.26
       objectReference: {fileID: 0}
     - target: {fileID: 114784959208048954, guid: eaae7daff6d5b7c4495ec0ccf6c11a6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.49
+      value: -4.57
       objectReference: {fileID: 0}
     - target: {fileID: 114784959208048954, guid: eaae7daff6d5b7c4495ec0ccf6c11a6c,
         type: 3}
