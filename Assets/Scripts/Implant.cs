@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Implant : MonoBehaviour
+public class Implant : DentistTool
 {
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+        PickUp(this);
     }
 
     // Update is called once per frame
