@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flusher : MonoBehaviour
+public class Flusher : DentistTool
 {
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+    private void OnMouseDown()
+    {
+        PickUp(this);
     }
 
     // Update is called once per frame
