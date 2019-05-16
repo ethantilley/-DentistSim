@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ToolManager : MonoBehaviour
 {
-    public static ToolManager instance;
+    public static ToolManager instance = null;
 
     private void Awake()
     {
@@ -19,7 +19,7 @@ public class ToolManager : MonoBehaviour
 
     }
 
-    public DentistTool currentTool;
+    public DentistTool currentTool = null;
 
     // Start is called before the first frame update
     void Start()

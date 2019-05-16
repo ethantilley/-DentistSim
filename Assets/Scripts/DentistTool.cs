@@ -14,11 +14,17 @@ public class DentistTool : MonoBehaviour
 
     public virtual void Start()
     {
-        startPos = transform.position;
+        startPos = gameObject.transform.position;
     }
 
     public virtual void Update()
     {
+
+
+
+        if (ToolManager.instance.currentTool == null)
+            return;
+
         if(ToolManager.instance.currentTool == this)
         {
             gameObject.transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, gameObject.transform.position.z);
@@ -28,14 +34,15 @@ public class DentistTool : MonoBehaviour
     }
 
     public void PickUp()
-    {
-        if(ToolManager.instance.currentTool == null)
+    {        
+        if (ToolManager.instance.currentTool == this)
+            return;
 
+        if(ToolManager.instance.currentTool != null)
+            ToolManager.instance.currentTool.ReplaceTool();
 
-            if (ToolManager.instance.currentTool == this)
-            {
+        Cursor.visible = false;
 
-            }
         ToolManager.instance.currentTool = this;
 
         GetComponent<BoxCollider2D>().enabled = false;
@@ -44,7 +51,9 @@ public class DentistTool : MonoBehaviour
 
     public void ReplaceTool()
     {
-
+        gameObject.transform.position = startPos;
+        GetComponent<BoxCollider2D>().enabled = true;
+        Cursor.visible = false;
     }
 
     public void UseTool()

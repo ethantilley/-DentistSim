@@ -4,13 +4,29 @@ using UnityEngine;
 
 public class Flusher : DentistTool
 {
-    // Start is called before the first frame update
-    void Start()
+    public ParticleSystem warterEffect;
+
+    public new void Update()
     {
-        
+        base.Update();
+        if (ToolManager.instance.currentTool == this)
+        {
+            ActivateTool();
+        }
+        else
+        {
+            DeActivateTool();
+        }
     }
-    private void Update()
+
+    public void ActivateTool()
     {
-        
+        warterEffect.gameObject.SetActive(true);
+    }
+
+
+    public void DeActivateTool()
+    {
+        warterEffect.gameObject.SetActive(false);
     }
 }
