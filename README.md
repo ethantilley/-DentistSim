@@ -2,7 +2,7 @@
 Entry to the Make-A-Thing Game Jam, May of 2019.
 
 ## What
-This project Is a unity, C# dentist simulater for the 
+This project Is a unity, C# dentist simulater for the Make-A-Thing Game Jam, May of 2019.
 
 ## Built With
 
