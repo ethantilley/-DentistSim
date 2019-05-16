@@ -18,7 +18,7 @@ todo
 
 * **Ethan Tilley** - *Programmer & Developer* - [@EthanTilley_](https://twitter.com/EthanTilley_)
 
-* **Sey Atkinson** - *Artist & Developer* - [@EthanTilley_](https://twitter.com/EthanTilley_)
+* **Sey Atkinson** - *Artist & Developer* - [@Sey_Atkinson](https://twitter.com/Sey_Atkinson)
 
 ## Goals With This Project
 - [ ] Pulling out teeth.
