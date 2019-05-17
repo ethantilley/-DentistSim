@@ -6,7 +6,7 @@ public class ToolManager : MonoBehaviour
 {
     public static ToolManager instance = null;
 
-    public int debrisActive;
+    public int debrisActive, decayedTeeth;
 
     private void Awake()
     {
@@ -33,5 +33,6 @@ public class ToolManager : MonoBehaviour
     void Update()
     {
         debrisActive = GameObject.FindGameObjectsWithTag("Debris").Length;
+        decayedTeeth = GameObject.FindGameObjectsWithTag("Tooth").Length;
     }
 }
