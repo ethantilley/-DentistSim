@@ -8,6 +8,8 @@ public class ToolManager : MonoBehaviour
 
     public int debrisActive, decayedTeeth, implantsLeft;
 
+    public GameObject endGamePanel;
+
     private void Awake()
     {
         if (instance != null)
@@ -28,6 +30,7 @@ public class ToolManager : MonoBehaviour
         yield return new WaitForSeconds(5);
         //end game
         Debug.Log("Game fin.");
+        endGamePanel.SetActive(true);
     }
     IEnumerator endGame;
     // Update is called once per frame
