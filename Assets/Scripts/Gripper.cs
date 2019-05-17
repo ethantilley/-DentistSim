@@ -24,6 +24,7 @@ public class Gripper : DentistTool
             {
                 toothGripped = collision.gameObject.transform;
                 toothGripped.transform.parent.gameObject.GetComponent<Animator>().SetTrigger("PullTooth");
+                toothGripped = null;
             }
         }
     }
