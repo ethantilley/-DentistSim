@@ -34,7 +34,8 @@ public class Flusher : DentistTool
     {
         if(collision.gameObject.CompareTag("Debris"))
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            Rigidbody2D debrisRB = collision.gameObject.GetComponent<Rigidbody2D>();
+            debrisRB.bodyType = RigidbodyType2D.Dynamic;
             Destroy(collision.gameObject, 2);
         }
     }
