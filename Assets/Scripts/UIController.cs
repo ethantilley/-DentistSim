@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
+    void Start()
+    {
+        Cursor.visible = true;
+    }
+
     public void OnClick_Home()
     {
         SceneManager.LoadScene(0);
