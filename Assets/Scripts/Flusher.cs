@@ -29,4 +29,14 @@ public class Flusher : DentistTool
     {
         warterEffect.gameObject.SetActive(false);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Debris"))
+        {
+            collision.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            Destroy(collision.gameObject, 2);
+        }
+    }
+
 }
