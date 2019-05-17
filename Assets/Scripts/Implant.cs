@@ -20,6 +20,7 @@ public class Implant : DentistTool
                 collision.gameObject.transform.parent.GetComponent<Animator>().SetTrigger("Implant");
                 collision.gameObject.tag = "Fixed";
                 --ToolManager.instance.implantsLeft;
+                AudioManager.instance.PlaySFX("ToothPull");
             }
         }
     }

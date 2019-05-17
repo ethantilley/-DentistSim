@@ -16,11 +16,13 @@ public class Flusher : DentistTool
         else
         {
             DeActivateTool();
+
         }
     }
 
     public void ActivateTool()
     {
+        AudioManager.instance.PlaySFX("Warter");
         warterEffect.gameObject.SetActive(true);
     }
 
@@ -28,6 +30,8 @@ public class Flusher : DentistTool
     public void DeActivateTool()
     {
         warterEffect.gameObject.SetActive(false);
+        AudioManager.instance.StopSFX("Warter");
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,6 +41,8 @@ public class Flusher : DentistTool
             Rigidbody2D debrisRB = collision.gameObject.GetComponent<Rigidbody2D>();
             debrisRB.bodyType = RigidbodyType2D.Dynamic;
             Destroy(collision.gameObject, 2);
+            AudioManager.instance.PlaySFX("Plaque");
+
         }
     }
 
