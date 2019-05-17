@@ -24,7 +24,11 @@ public class Gripper : DentistTool
             {
                 toothGripped = collision.gameObject.transform;
                 toothGripped.transform.parent.gameObject.GetComponent<Animator>().SetTrigger("PullTooth");
+                collision.gameObject.tag = "MissingTooth";
+
                 toothGripped = null;
+                --ToolManager.instance.decayedTeeth;
+
             }
         }
     }

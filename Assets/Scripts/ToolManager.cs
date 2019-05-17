@@ -6,7 +6,7 @@ public class ToolManager : MonoBehaviour
 {
     public static ToolManager instance = null;
 
-    public int debrisActive, decayedTeeth;
+    public int debrisActive, decayedTeeth, implantsLeft;
 
     private void Awake()
     {
@@ -23,16 +23,27 @@ public class ToolManager : MonoBehaviour
 
     public DentistTool currentTool = null;
 
-    // Start is called before the first frame update
-    void Start()
+    public IEnumerator CompleteGame()
     {
-        
+        yield return new WaitForSeconds(5);
+        //end game
+        Debug.Log("Game fin.");
     }
-
+    IEnumerator endGame;
     // Update is called once per frame
     void Update()
     {
         debrisActive = GameObject.FindGameObjectsWithTag("Debris").Length;
-        decayedTeeth = GameObject.FindGameObjectsWithTag("Tooth").Length;
+
+        if (debrisActive <= 0 && decayedTeeth <= 0 && implantsLeft <= 0)
+        {
+            if(endGame == null)
+            {
+                endGame = CompleteGame();
+                StartCoroutine(endGame);
+                
+            }
+        }
+
     }
 }
